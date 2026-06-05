@@ -11,6 +11,7 @@ tags:
 - construction-tech
 - software-development
 - technology-adoption
+date: 2026-04-24
 ---
 We've always treated computational capability as a specialist's job.
 

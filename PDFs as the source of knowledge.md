@@ -10,6 +10,7 @@ tags:
 - artificial-intelligence
 - construction-tech
 - decision-making
+date: 2026-03-06
 ---
 In 1993, a Gartner consultant called the PDF "the dumbest idea I've ever heard."
 

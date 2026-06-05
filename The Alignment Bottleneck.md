@@ -12,6 +12,7 @@ tags:
 - communication
 - systems-thinking
 - construction-tech
+date: 2026-05-06
 ---
 Software teams just discovered the alignment problem.
 
@@ -41,4 +42,4 @@ The solution may not come from within.
 
 ---
 
-Related: [[The Collapsing Distance]], [[Configurators and infrastructure thinking]], [[Small Tools, Bigger Question]], [[Workflows & the agent layer]].
+Related: [[The collapsing distance]], [[Configurators and infrastructure thinking]], [[Small Tools, Bigger Question]], [[Workflows & the agent layer]].

@@ -10,6 +10,7 @@ tags:
 - systems-thinking
 - artificial-intelligence
 - team-management
+date: 2025-12-02
 ---
 [Melissa Perri](https://www.linkedin.com/posts/melissajeanperri_the-product-vs-project-management-confusion-activity-7387812814502981632-UP5o?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAXcbq4BbjUT_TUyQcfHbif9RUS18zegZ0I) recently shared a powerful insight: the confusion between product and project management isn't a role definition problem—it's a **leadership problem**.
 
@@ -47,4 +48,4 @@ Which means it's fixable.
 
 ---
 
-Related: [[From T&M to outcome]], [[Product management in complex organizations]], [[When Speed Becomes a Commodity]], [[Everything we build is a product]].
+Related: [[From T&M to outcome]], [[Product management in complex organizations]], [[When speed becomes a commodity]], [[Everything we build is a product]].

@@ -11,6 +11,7 @@ tags:
 - docs-knowledge
 - systems-thinking
 - platforms-apis
+date: 2026-03-31
 ---
 Construction knows it needs to collect data.
 

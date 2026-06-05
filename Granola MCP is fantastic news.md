@@ -8,6 +8,7 @@ tags:
 - data-management
 - digital-engineering
 - ai-coding
+date: 2024-05-29
 ---
 read it here: [https://lnkd.in/dM7AgzZc](https://lnkd.in/dM7AgzZc). It's a huge step toward making meeting data truly actionable across the AI ecosystem.  
   

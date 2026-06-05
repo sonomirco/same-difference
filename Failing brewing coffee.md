@@ -10,6 +10,7 @@ tags:
 - construction-tech
 - artificial-intelligence
 - product-curation
+date: 2025-11-20
 ---
 "I wish I would have learned how much coffee you wanted in that first experiment."
 

@@ -10,6 +10,7 @@ tags:
 - construction-tech
 - decision-making
 - product-design
+date: 2024-03-24
 ---
 I keep coming back to something Brian Chesky said about industrial design: there are no product managers, because the designer *is* the product manager. You don't just decide how something looks, you own the question of whether anyone actually needs it. A design that nobody buys isn't a near miss, it's a failure.
 
@@ -27,7 +28,7 @@ So the question I'd be sitting with, if I were deciding where AI goes in a firm,
 
 ---
 
-Related: [[The Collapsing Distance]], [[More efficiency, more demand]], [[Product management in complex organizations]], [[Rigorous where it counts]], [[When Speed Becomes a Commodity]].
+Related: [[The collapsing distance]], [[More efficiency, more demand]], [[Product management in complex organizations]], [[Rigorous where it counts]], [[When speed becomes a commodity]].
 
 Sources:
 - https://jeffgothelf.com/blog/karpathy-said-vibe-coding-is-obsolete-what-he-described-instead-is-product-management/

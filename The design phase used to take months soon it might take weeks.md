@@ -10,9 +10,8 @@ tags:
 - structural-engineering
 - tunneling
 - organizational-design
+date: 2025-06-12
 ---
-## The design phase used to take months. Soon it might take weeks.
-
 An architect envisions a space. A designer sketches it. Engineers validate it. Then we repeat—iterate dozens of times, each cycle costing time and money. For decades, this cycle has been the same: draw → build models → evaluate → redraw.
 
 What if we could collapse these timelines?
@@ -44,5 +43,5 @@ Think about what this unlocks:
 
 ---
 
-Related: [[Computational design]], [[The Collapsing Distance]], [[Configurators and infrastructure thinking]], [[Democratising computation]].
+Related: [[Computational design]], [[The collapsing distance]], [[Configurators and infrastructure thinking]], [[Democratising computation]].
 

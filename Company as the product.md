@@ -11,6 +11,7 @@ tags:
 - product-strategy
 - leadership
 - customer-centric
+date: 2024-01-20
 ---
 In enterprise software, selling a product and selling a solution are not the same thing. A product is an artifact — it lets you automate some tasks, see analytics, comment on documents. A solution takes an existing process in a customer's organisation and transforms it into something that drives a meaningfully better outcome. The distinction matters because customers often struggle to close that gap themselves.
 

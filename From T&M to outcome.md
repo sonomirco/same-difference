@@ -10,6 +10,7 @@ tags:
 - product-strategy
 - technology-adoption
 - innovation
+date: 2026-03-25
 ---
 Construction has always billed for time.
 
@@ -35,7 +36,7 @@ It is time to have different conversations with clients and start moving from ti
 
 ---
 
-Related: [[Why construction is trapped in delivery mode]], [[When Speed Becomes a Commodity]], [[The Software Industry Showed Us the Bill]], [[The Jevons paradox]].
+Related: [[Why construction is trapped in delivery mode]], [[When speed becomes a commodity]], [[The software industry showed us the bill]], [[The Jevons paradox]].
 
 Sources:
 - https://www.semafor.com/article/03/06/2026/autodesks-model-for-building-an-ai-moat

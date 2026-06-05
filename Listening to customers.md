@@ -11,6 +11,7 @@ tags:
 - self-awareness
 - systems-thinking
 - leadership
+date: 2024-06-23
 ---
 Most product builders misunderstand customer development. They're more interested in confirming their idea than confronting its flaws. Jason Cohen is direct about this: when you ask someone if they "would buy" your product, they are either lying or guessing. Either way, it's fiction.
 

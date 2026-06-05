@@ -10,6 +10,7 @@ tags:
 - navigating-ambiguity
 - systems-thinking
 - business-model
+date: 2025-10-17
 ---
 _I’ve gathered some thoughts. Engineering requires precision because the results must be flawless, and the industry operates on the principle that any issues are resolved as they arise, making communication a secondary concern. Additionally, weekly iterations often lead to minor setbacks that you need to accept and adapt to without getting frustrated about making changes._
 
@@ -62,4 +63,4 @@ Be rigorous where it counts. Iterate everywhere else.
 
 ---
 
-Related: [[Product management in complex organizations]], [[Failing brewing coffee]], [[The Champion Problem]], [[Product discovery and feature factory]].
+Related: [[Product management in complex organizations]], [[Failing brewing coffee]], [[Appointing champions isn't a tech strategy]], [[Product discovery and feature factory]].

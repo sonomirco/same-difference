@@ -10,6 +10,7 @@ tags:
 - digital-engineering
 - systems-thinking
 - organizational-design
+date: 2026-04-16
 ---
 The most important thing happening in AEC right now is not the tools. It is what happens to workflows when time and data distance collapse.
 

@@ -10,6 +10,7 @@ tags:
 - construction-tech
 - systems-thinking
 - product-strategy
+date: 2025-08-12
 ---
 OpenAI is turning agent orchestration into something you download instead of something you build. You can spawn an agent for each task, let it do its job, and review the results. What felt like an edge a year ago is becoming plumbing: managing an entire fleet of agents is turning into a straightforward clone-and-fork task, a path the labs have already paved. But the real, important work happens beyond that paved path.
 

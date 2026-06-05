@@ -10,6 +10,7 @@ tags:
 - systems-thinking
 - business-model
 - efficiency
+date: 2025-09-08
 ---
 For most of its history, AEC has had one definition of efficiency. Faster delivery, lower cost. That definition is so embedded in how the industry talks about itself that it's easy to forget it's a choice.
 

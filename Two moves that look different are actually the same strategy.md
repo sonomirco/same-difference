@@ -10,6 +10,7 @@ tags:
 - artificial-intelligence
 - open-source
 - automation
+date: 2026-02-19
 ---
 Palantir is launching a construction-specific stack — ontology and AI workflows across precon, procurement, execution, and closeout. Anthropic is moving upmarket through SIs, industry-specific GTM teams, and heavy investment in safety infrastructure.
 

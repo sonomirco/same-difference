@@ -10,6 +10,7 @@ tags:
 - docs-knowledge
 - knowledge-graphs
 - construction-tech
+date: 2026-03-18
 ---
 Jensen Huang introduced OpenClaw at GTC, baked into Nvidia's platform. It breaks problems into tasks, spawns sub-agents, connects them to tools, to file systems, to models. The infrastructure for agents to actually coordinate work, not just answer questions in isolation.
 

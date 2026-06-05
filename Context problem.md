@@ -9,6 +9,7 @@ tags:
 - construction-tech
 - bim
 - automation
+date: 2026-01-15
 ---
 "We have the solution. We just can't talk to each other."  
   

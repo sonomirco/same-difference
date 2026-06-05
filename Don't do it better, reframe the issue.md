@@ -9,6 +9,7 @@ tags:
 - data-management
 - open-source
 - artificial-intelligence
+date: 2026-03-07
 ---
 You've likely spent the last five years selling "better BIM" or "better project management." Slightly faster. Nicer UI. Integrated dashboards.
 
@@ -36,7 +37,7 @@ The first path leads to pilots and product iterations. The second leads to categ
 
 ---
 
-Related: [[Two moves that look different are actually the same strategy]], [[Everything we build is a product]], [[When Speed Becomes a Commodity]].
+Related: [[Two moves that look different are actually the same strategy]], [[Everything we build is a product]], [[When speed becomes a commodity]].
 
 Sources:
 - https://youtu.be/hWFhAPnRRPE?t=847

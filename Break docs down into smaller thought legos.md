@@ -5,18 +5,17 @@ groups:
 tags:
 - curation-criteria
 - digital-transformation
+date: 2023-11-16
 ---
-Perhaps the most direct way to make thought legos is to break big documents down into smaller, reusable blocks. Most written documents are made up of something like a series of smaller “idea chunks”, usually paragraphs.
-Referenced sources include Block reference mechanisms - by Gordon Brander [R1], used to anchor and extend the note context.
+Most written documents are composed of a series of smaller idea chunks — usually paragraphs, each carrying one thought. The direct way to make knowledge reusable is to break those documents apart so that each idea chunk becomes an addressable block.
 
-## Key points
+Writing is linear by nature. Authors force ideas into a sequence because that's how sentences and paragraphs work. But the ideas themselves aren't inherently linear. Once a document is decomposed into blocks, the same block can be referenced from multiple contexts without being copied, edited without breaking other references, and combined with other blocks in ways the original document didn't anticipate. **The unit of reuse is the thought, not the document.**
 
-- Perhaps the most direct way to make thought legos is to break big documents down into smaller, reusable blocks. Most written documents are made up of something
-- Perhaps the most direct way to make thought legos is to break big documents down into
-- Perhaps the most direct way to make thought legos is to break big documents down into smaller, reusable blocks
-- Most written documents are made up of something like a series of smaller “idea chunks”, usually paragraphs
-- What if we blew these documents apart, so that each “idea chunk” became a thought lego, a block we could address
+This is the principle behind block-reference mechanisms and, more broadly, behind tools like Obsidian's wiki-links: make the atomic unit of knowledge small enough to be recombined, not so large that it can only be read in one fixed order.
 
-## References
+---
 
-- [R1] Block reference mechanisms - by Gordon Brander. Writing is linear, serial, and one side-effect of communicating serially is that you have to force ideas into some sort of order. And so: stories. Authors... https://subconscious.substack.com/p/block-reference-mechanisms?s=r
+Related: [[Make readable to agents]], [[The data flywheel we haven't built yet]], [[OpenClaw & institutional knowledge]].
+
+Sources:
+- https://subconscious.substack.com/p/block-reference-mechanisms

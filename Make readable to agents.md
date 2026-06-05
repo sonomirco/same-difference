@@ -9,6 +9,7 @@ tags:
 - digital-engineering
 - bim
 - product-design
+date: 2026-02-27
 ---
 The interoperability problem isn't going away.
 

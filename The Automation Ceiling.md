@@ -10,6 +10,7 @@ tags:
 - workflow-design
 - systems-thinking
 - organizational-design
+date: 2025-06-11
 ---
 Construction has always been a place of creative builders.
 
@@ -27,7 +28,7 @@ What we are going to hit is not a ceiling of solutions but a ceiling of incremen
 
 ---
 
-Related: [[More efficiency, more demand]], [[Small Tools, Bigger Question]], [[The Collapsing Distance]], [[The Jevons paradox]].
+Related: [[More efficiency, more demand]], [[Small Tools, Bigger Question]], [[The collapsing distance]], [[The Jevons paradox]].
 
 Sources:
 - https://www.mckinsey.com/featured-insights/mckinsey-explainers/where-ai-is-creating-real-value-in-real-estate

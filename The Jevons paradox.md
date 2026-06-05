@@ -10,6 +10,7 @@ tags:
 - artificial-intelligence
 - automation
 - product-design
+date: 2026-02-12
 ---
 where efficiency creates more demand rather than less, works in radiology because AI-enabled imaging feeds directly back into more imaging orders.  
   

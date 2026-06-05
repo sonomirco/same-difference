@@ -10,6 +10,7 @@ tags:
 - docs-knowledge
 - automation
 - open-source
+date: 2026-04-08
 ---
 **Skills aren't just for developers!**
 

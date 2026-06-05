@@ -10,21 +10,19 @@ tags:
 - construction-tech
 - bim
 - organizational-design
+date: 2024-03-07
 ---
-Biggest takeaway from the advancing computational design conference this year is that almost every AEC design firm is wrestling with what to call this job. Most firms realize the power and potential of computational design but few have a concrete plan of how computational designers fit within their organization.
-Referenced sources include 5 Challenges Why AEC Industry is Slow in Digitalization [R1], 150: ‘Embracing Change’, with Timothy Halvorson [R2], and Episodes brandon milner building digital ellisdon [R3], used to anchor and extend the note context.
+The biggest takeaway from the advancing computational design conference this year was that almost every AEC design firm is wrestling with what to call this job. Most firms understand the power and potential of computational design; very few have a concrete plan for how computational designers fit within their organisation.
 
-## Key points
+The question isn't just a naming problem. It runs into how you attract, motivate, and create career paths that respect both the profession and the professional. Computational designers sit at an uncomfortable intersection — they're not quite engineers, not quite software developers, and not quite BIM managers. The firms that handle this best tend to define the role by its outcomes (what it produces for delivery teams) rather than by its methods (what tools it uses).
 
-- Biggest takeaway from the advancing computational design conference this year is that almost every AEC design firm is wrestling with what to call this job
-- Biggest takeaway from the advancing computational design conference this year is that
-- Engineering discipline
-- Biggest takeaway from the advancing computational design conference this year is that almost every AEC design firm is wrestling with what to call this job
-- Most firms realize the power and potential of computational design but few have a concrete plan of how computational designers fit within their organization
-- How do you attract, motivate, and career path in a way that respects the profession and the professional
+**The broader challenge is that AEC firms are slow to digitalize not because the technology is insufficient, but because the organizational structures haven't caught up with what the technology makes possible.**
 
-## References
+---
 
-- [R1] 5 Challenges Why AEC Industry is Slow in Digitalization. Why the AEC (Architecture, Engineering, Construction) industry, the largest yet least digitized, is slow in adopting digitalization? https://www.linkedin.com/pulse/transforming-aec-industry-closer-look-digitalization-saeid-kalantari/
-- [R2] 150: ‘Embracing Change’, with Timothy Halvorson. A conversation with Timothy Halvorson. https://www.trxl.co/150/
-- [R3] Episodes brandon milner building digital ellisdon. Referenced source related to digitalization challenges. https://constructedfutures.com/episodes/brandon-milner-building-digital-at-ellisdon
+Related: [[Computational design]], [[Democratising computation]], [[Skills aren't just for developers anymore]], [[Appointing champions isn't a tech strategy]].
+
+Sources:
+- https://www.linkedin.com/pulse/transforming-aec-industry-closer-look-digitalization-saeid-kalantari/
+- https://www.trxl.co/150/
+- https://constructedfutures.com/episodes/brandon-milner-building-digital-at-ellisdon

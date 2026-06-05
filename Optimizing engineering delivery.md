@@ -11,6 +11,7 @@ tags:
 - agile
 - communication
 - innovation
+date: 2024-07-27
 ---
 Big enterprises survive by being efficient — optimization is what keeps them alive. The Innovator's Dilemma describes this clearly: established firms excel at process optimization while startups excel at disruption. For engineering and construction, reimagining delivery requires three fundamental shifts.
 
@@ -24,7 +25,7 @@ Underlying all three: feedback loops that actually inform decisions. The common 
 
 ---
 
-Related: [[The Collapsing Distance]], [[Small Tools, Bigger Question]], [[Workflows & the agent layer]], [[From T&M to outcome]].
+Related: [[The collapsing distance]], [[Small Tools, Bigger Question]], [[Workflows & the agent layer]], [[From T&M to outcome]].
 
 Sources:
 - https://www.mckinsey.com/capabilities/operations/our-insights/reimagining-engineering-to-deliver-more-projects-more-efficiently

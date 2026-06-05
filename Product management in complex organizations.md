@@ -11,6 +11,7 @@ tags:
 - innovation
 - communication
 - decision-making
+date: 2024-10-18
 ---
 Many teams create value, but if that value isn't clearly tied to company goals and well communicated, it becomes invisible. Christopher Breton's framing is direct: thriving in a complex organisation isn't just about creating value — it's about ensuring that value is visible, recognised, and clearly connected to the company's goals. Success comes from celebrating team achievements and elevating their contributions, not from making yourself the focal point.
 

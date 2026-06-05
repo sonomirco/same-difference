@@ -9,6 +9,7 @@ tags:
 - construction-tech
 - leadership
 - innovation
+date: 2026-04-02
 ---
 AI is going to make engineers faster.
 

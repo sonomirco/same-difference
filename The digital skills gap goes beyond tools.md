@@ -9,6 +9,7 @@ tags:
 - bim
 - construction-tech
 - automation
+date: 2026-01-27
 ---
 
 I've been following recent discussions on the [Bricks & Bytes](https://www.linkedin.com/company/bricks-bytes/) podcast about the digital skills gap, and it's clear the industry faces a challenge that goes far beyond "learning new software."
@@ -30,7 +31,7 @@ The tools are already available. The real challenge now is helping thousands of 
 
 ---
 
-Related: [[Why technology adoption is poor in AEC]], [[Communication and clarity]], [[The Champion Problem]], [[More efficiency, more demand]].
+Related: [[Why technology adoption is poor in AEC]], [[Communication and clarity]], [[Appointing champions isn't a tech strategy]], [[More efficiency, more demand]].
 
 Sources:
 - https://lnkd.in/dyBZAdJt

@@ -9,6 +9,7 @@ tags:
 - construction-tech
 - digital-engineering
 - systems-thinking
+date: 2026-03-09
 ---
 We've been automating tasks for decades.
 
@@ -40,7 +41,7 @@ Now it is a great time to rethink and redesign our workflows.
 
 ---
 
-Related: [[The Alignment Bottleneck]], [[The Collapsing Distance]], [[Small Tools, Bigger Question]], [[OpenClaw & institutional knowledge]].
+Related: [[The Alignment Bottleneck]], [[The collapsing distance]], [[Small Tools, Bigger Question]], [[OpenClaw & institutional knowledge]].
 
 Sources:
 - https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-agent-orchestration.html

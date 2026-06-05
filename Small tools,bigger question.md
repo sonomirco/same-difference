@@ -10,6 +10,7 @@ tags:
 - systems-thinking
 - workflow-design
 - digital-engineering
+date: 2026-04-22
 ---
 Construction has always been an industry of doers. People who hit a problem on Monday and have a workaround running by Friday usually have a spreadsheet, a script, a half-written macro that gets emailed around and quietly becomes "the way we do it."
 
@@ -27,4 +28,4 @@ The industry doesn't improve by shrinking time on the same broken sequence. It i
 
 ---
 
-Related: [[The Automation Ceiling]], [[The Collapsing Distance]], [[Workflows & the agent layer]], [[Every project makes the next one harder unless it doesn't]].
+Related: [[The Automation Ceiling]], [[The collapsing distance]], [[Workflows & the agent layer]], [[Every project makes the next one harder unless it doesn't]].

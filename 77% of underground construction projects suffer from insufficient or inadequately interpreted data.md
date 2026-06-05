@@ -9,6 +9,7 @@ tags:
 - automation
 - construction-tech
 - bim
+date: 2026-02-26
 ---
 (Source: [Rajat](https://www.linkedin.com/in/rajatgangrade/) Gangrade)  
   
@@ -60,7 +61,7 @@ It's coordination as a continuous learning system.
 
 ---
 
-Related: [[Context problem]], [[AEC data and schemas]], [[The Collapsing Distance]], [[AI and the End of Excel Mediation in AEC]].
+Related: [[Context problem]], [[AEC data and schemas]], [[The collapsing distance]], [[AI and the End of Excel Mediation in AEC]].
 
 Sources:
 - https://lnkd.in/gJNvnuJc

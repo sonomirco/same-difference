@@ -10,6 +10,7 @@ tags:
 - business-model
 - platform-strategy
 - safety-tech
+date: 2026-05-13
 ---
 Turner gave the industry an AI safety tool for free. I see this as a category strategy.
 

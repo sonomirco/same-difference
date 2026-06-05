@@ -10,6 +10,7 @@ tags:
 - organizational-design
 - leadership
 - communication
+date: 2023-11-11
 ---
 Construction has had an answer to technology adoption for years: put a champion in the room. Someone who leans forward in demos, installs tools on their own time, comes back with use cases. Give them a title — AI champion, digital lead — and the adoption problem feels handled.
 

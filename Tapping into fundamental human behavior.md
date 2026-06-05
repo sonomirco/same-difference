@@ -8,6 +8,7 @@ tags:
 - decision-making
 - systems-thinking
 - innovation
+date: 2025-05-13
 ---
 Most founders are skating on the surface of what they're building, while the real opportunities lie in the depths of human behaviour. Oji Udeze put it directly: if you're building the next big thing, you're probably not looking deep enough.
 

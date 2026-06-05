@@ -10,6 +10,7 @@ tags:
 - curation-criteria
 - systems-thinking
 - software-development
+date: 2024-05-07
 ---
 When teams rely only on meetings, intuition, and execution speed, ideas ship quickly but often drift from user value. A writing-first framework fixes this by forcing clarity before delivery, making assumptions explicit, and creating a shared decision trail.
 

@@ -10,6 +10,7 @@ tags:
 - construction-tech
 - product-discovery
 - product-design
+date: 2026-01-07
 ---
 You've probably felt this: Opening a Revit file from five years ago is more work than starting fresh. A problem you solved on Project A gets rediscovered on Project B. Your firm's knowledge exists only in people's heads—not in reusable systems.
 

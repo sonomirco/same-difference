@@ -11,92 +11,21 @@ tags:
 - innovation
 - decision-making
 - communication
+date: 2024-06-01
 ---
-Jensen Huang's approach to building Nvidia offers powerful lessons on organizational design, decision-making speed, and creating cultures of excellence through friction and accountability.
+Jensen Huang's approach to building Nvidia surfaces a set of organisational design principles worth understanding on their own terms.
 
-## The rock tumbler analogy
+The rock tumbler analogy is the clearest. Put regular ugly rocks in a tumbler with friction; come back tomorrow and find polished stones. The same material went in; what changed is that the pieces rubbed against each other constantly. His argument is that bureaucracy eliminates this friction — and in doing so, eliminates excellence. The structure that follows from this is flatness: 60 direct reports, no one-on-one meetings. The reasoning is direct. Slow decision-making drives great people away. If someone with a clear mission can't get their job done because the organisation can't decide, they leave. The flat structure is a deliberate response to having built a bureaucratic and political company in Nvidia's earlier years.
 
-> "There was an 80 year old man that lived on my street. One day he showed me a dusty old Rock Tumbler. We took regular old ugly Rocks and some liquid and powder and put them in the Tumbler. And he said to me, come back tomorrow. The next day, we opened the can. We took out these amazingly beautiful polished Rocks."
+**Public accountability is the anti-politics mechanism.** Backstabbing and gaming metrics thrive in the dark. Huang criticises mistakes publicly so the entire organisation learns from a single person's error. Both he and Steve Jobs understood that bureaucracy is the enemy and that public accountability is the antidote — not because it's punishing but because it makes the organisation's actual reasoning visible.
 
-> "The same common stones that had gone in, they're rubbing up against each other, creating a little friction, creating a little noise, had come out these beautiful polished Rocks. It is through a group of incredibly talented people bumping up against each other, working together. They polish each other, they polish their ideas."
+The payoff is clarity. Brian Chesky: what everyone really wants is clarity, not autonomy. Teams in founder-mode environments tend to gain energy rather than lose it, because they trade some independence for a direction that's unambiguous. Clarity is the only way to move fast enough to win. Jeff Bezos made the same point from the other direction: slow decisions don't just slow the work down, they drive away the people who came to do good work.
 
-**Key insight**: Friction between talented people polishes both people and ideas. Bureaucracy that eliminates this friction also eliminates excellence.
+---
 
-## Flat organizational structure for speed
+Related: [[Corporate fear and startup agility]], [[Appointing champions isn't a tech strategy]], [[Beyond RACI]], [[Building psychologically safe teams]].
 
-Jensen Huang has 60 direct reports and refuses to do one-on-one meetings.
-
-### Why flat structure matters
-
-A flat structure fights against slow decision making. Jeff Bezos recognized how dangerous slow decisions can be:
-
-> "You can drive great people away by making the speed of decision making really slow. Why would great people stay in an organization where they can't get their job done? They look around after a while and they say, hey, look, I love the mission, but I can't get my job done because our speed of decision making is too slow."
-
-### Jensen learned through failure
-
-> "When we were a small company, we were really bureaucratic and really political."
-
-The flat structure was his response—designed to prevent bureaucracy from building up.
-
-## Public accountability and embarrassment
-
-Jensen's approach to backstabbing, gaming metrics, and political infighting: **public accountability and if need be, public embarrassment.**
-
-### How it works
-
-He criticizes mistakes publicly so the entire organization can learn from a single person's mistake.
-
-> "He criticizes publicly so that the entire organization can learn from a single person's mistake. There's so many examples throughout the book."
-
-### The philosophy
-
-People protect their turf and their ideas. Jensen's anecdote is anti-bureaucracy—public embarrassment prevents politics from taking root.
-
-### Steve Jobs parallel
-
-There are many parallels to Steve Jobs' approach at Apple. Both understood that:
-- Bureaucracy kills innovation
-- Public accountability creates clarity
-- Excellence requires friction
-
-## Founder mode: Clarity over autonomy
-
-From [Designing an Org for Founder Mode](https://www.danhock.co/p/designing-an-org-for-founder-mode):
-
-### The counter-argument
-
-Won't founder mode disempower teams? Don't great people want autonomy?
-
-**Counter-intuitively**, teams on founder-mode projects tend to gain energy, not lose it.
-
-### The explanation
-
-In exchange for some autonomy, teams get clarity. As Brian Chesky said on Lenny's Podcast:
-
-> "Way too many founders apologize for the way they want to run the company. They find some midpoint between how they want to run the company and how the people they lead want to run the company. That's a good way to make everyone miserable."
-
-> "**What everyone really wants is clarity.**"
-
-### Why clarity wins
-
-- Clarity is the only way to move fast enough to win
-- Moving fast is fun
-- Winning is what people want most of all
-
-## Summary
-
-Jensen Huang's leadership approach at Nvidia demonstrates:
-
-1. **Embrace friction** - Rock tumbler effect: talented people rubbing against each other creates excellence
-2. **Flat for speed** - 60 direct reports, no one-on-ones to prevent bureaucratic slowdowns
-3. **Public accountability** - Criticize mistakes publicly so everyone learns; prevents politics
-4. **Clarity over autonomy** - People prefer clear direction over ambiguous autonomy
-
-The combination: an organization that moves fast, learns constantly, and polishes both people and ideas through healthy friction.
-
-## References
-
-- [R1] Founders Podcast: Jensen Huang - Founder of Nvidia. Rock tumbler analogy, flat org structure, public accountability. https://podcasts.apple.com/au/podcast/founders/id1141877104?i=1000683725727
-- [R2] Dan Hock: Designing an Org for Founder Mode. Clarity vs autonomy tradeoff. https://www.danhock.co/p/designing-an-org-for-founder-mode
-- [R3] Lenny's Podcast: Brian Chesky Interview. Clarity is what people want most. https://www.lennysnewsletter.com/p/brian-cheskys-contrarian-approach
-- [R4] Jeff Bezos: Decision-making speed. Slow decisions drive great people away.
+Sources:
+- https://podcasts.apple.com/au/podcast/founders/id1141877104?i=1000683725727
+- https://www.danhock.co/p/designing-an-org-for-founder-mode
+- https://www.lennysnewsletter.com/p/brian-cheskys-contrarian-approach

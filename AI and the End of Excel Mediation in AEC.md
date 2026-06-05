@@ -9,6 +9,7 @@ tags:
 - data-management
 - automation
 - digital-transformation
+date: 2026-05-06
 ---
 In AEC, Excel is not just a spreadsheet. It has been the project delivery platform.
 

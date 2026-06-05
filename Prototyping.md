@@ -9,6 +9,7 @@ tags:
 - communication
 - decision-making
 - systems-thinking
+date: 2024-12-19
 ---
 Prototyping is worth taking seriously as a thinking tool, not just a communication tool. The act of prototyping fleshes out product ideas far beyond what's possible in documents, spreadsheets, or presentations. It forces decisions that abstract descriptions can defer indefinitely.
 

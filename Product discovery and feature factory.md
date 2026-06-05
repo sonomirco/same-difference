@@ -11,6 +11,7 @@ tags:
 - innovation
 - product-delivery
 - leadership
+date: 2024-10-03
 ---
 Product discovery reduces risk by doing research before building. The output is confidence — not solutions or designs. Yet many AEC teams remain in constant discovery mode without ever making decisions: all research, all documentation, all standardisation, no commitment.
 

@@ -10,6 +10,7 @@ tags:
 - cost-management
 - internal-strategy
 - automation
+date: 2025-08-01
 ---
 Microsoft cancelled its internal Claude Code licences because token-based billing made the cost untenable. Uber burned through its entire 2026 AI budget in four months. Across the tech sector, flat-rate plans are being replaced with usage-based billing and prices are rising by up to 37%.
 
@@ -31,4 +32,4 @@ Sean Young at NVIDIA has been living this question from the inside. His team exc
 
 ---
 
-Related: [[From T&M to outcome]], [[Gen AI and the future of product management]], [[The Jevons paradox]], [[When Speed Becomes a Commodity]].
+Related: [[From T&M to outcome]], [[Gen AI and the future of product management]], [[The Jevons paradox]], [[When speed becomes a commodity]].

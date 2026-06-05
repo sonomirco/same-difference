@@ -11,6 +11,7 @@ tags:
 - data-management
 - organizational-design
 - leadership
+date: 2024-03-28
 ---
 Product teams accumulate four types of debt when prioritising immediate demands over long-term health. Understanding the distinction helps make smarter trade-off decisions rather than treating all shortcuts the same.
 
