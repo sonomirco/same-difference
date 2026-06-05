@@ -12,6 +12,7 @@ const els = {
   search: document.getElementById('search-input'),
   groupFilters: document.getElementById('group-filters'),
   resultCount: document.getElementById('result-count'),
+  resultCountDup: document.getElementById('result-count-dup'),
   countNotes: document.getElementById('count-notes'),
   countGroups: document.getElementById('count-groups'),
   countTags: document.getElementById('count-tags'),
@@ -72,6 +73,9 @@ function renderFilters() {
 function renderList() {
   state.filtered = state.notes.filter(noteMatches);
   els.resultCount.textContent = `${state.filtered.length} note${state.filtered.length === 1 ? '' : 's'}`;
+  if (els.resultCountDup) {
+    els.resultCountDup.textContent = els.resultCount.textContent;
+  }
   els.noteList.innerHTML = state.filtered
     .map((note) => {
       const active = note.slug === state.activeSlug;

@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Press+Start+2P&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Space+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -33,16 +33,26 @@
         </nav>
       </header>
 
-      <header class="masthead">
-        <div class="masthead-copy">
-          <p class="eyebrow">FIG_001 · THOUGHT VAULT · 2026 OPEN SOURCE</p>
-          <h1>Thoughts</h1>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">FIG_001 · THOUGHT VAULT V1.0 · 2026 OPEN SOURCE</p>
+          <h1>Thoughts<br />from Scratch</h1>
           <p class="lede">
             A flat vault of short notes on construction, product thinking, AI, and the systems between them.
           </p>
+          <p class="lede italic">
+            Maintained in Markdown, rendered as a simple reading layer, and published on GitHub Pages.
+          </p>
+          <div class="hero-actions">
+            <button id="random-btn" class="hero-btn" type="button">Random note</button>
+            <button id="latest-btn" class="hero-btn" type="button">Latest note</button>
+            <a class="hero-btn hero-link" href="https://github.com/sonomirco/thoughts" target="_blank" rel="noreferrer noopener">
+              GitHub
+            </a>
+          </div>
         </div>
 
-        <div class="masthead-meta" id="contents">
+        <div class="hero-meta" id="contents">
           <div class="meta-card">
             <span class="meta-label">Notes</span>
             <strong id="count-notes">0</strong>
@@ -60,34 +70,61 @@
             <strong id="generated-at">—</strong>
           </div>
         </div>
-      </header>
+      </section>
 
-      <section class="toolbar" aria-label="Search and filters">
-        <label class="search">
-          <span class="search-label">Search</span>
-          <input id="search-input" type="search" placeholder="Title, tag, group, or text" autocomplete="off" />
-        </label>
-
-        <div class="toolbar-actions">
-          <button id="random-btn" class="action-btn" type="button">Random note</button>
-          <button id="latest-btn" class="action-btn" type="button">Latest</button>
-          <button id="clear-btn" class="action-btn" type="button">Clear filters</button>
+      <section class="story">
+        <div class="section-kicker">How this works</div>
+        <div class="story-grid">
+          <p>
+            Most note archives end up scattered: a title here, a tag cloud there, a wall of text somewhere else. This
+            page keeps the vault flat and lets the metadata do the organization.
+          </p>
+          <p>
+            Each note is stored as Markdown at the repo root. The reader pulls frontmatter, builds the archive, and
+            keeps the note itself as the source of truth. Search, tags, and related links are the navigation layer.
+          </p>
         </div>
       </section>
 
-      <nav class="filters" id="group-filters" aria-label="Group filters"></nav>
+      <section class="catalog-shell" id="catalog">
+        <div class="toolbar" aria-label="Search and filters">
+          <label class="search">
+            <span class="search-label">Search</span>
+            <input id="search-input" type="search" placeholder="Title, tag, group, or text" autocomplete="off" />
+          </label>
 
-      <main class="layout" id="catalog">
-        <aside class="index-panel" aria-label="Note index">
-          <div class="index-header">
-            <p class="index-title">Catalog</p>
-            <span id="result-count" class="result-count">0 notes</span>
+          <button id="clear-btn" class="action-btn" type="button">Clear filters</button>
+        </div>
+
+        <nav class="filters" id="group-filters" aria-label="Group filters"></nav>
+
+        <div class="progress" aria-label="Current progress">
+          <div class="progress-card">
+            <span class="meta-label">Current progress</span>
+            <strong id="result-count">0 notes</strong>
           </div>
-          <div id="note-list" class="note-list"></div>
-        </aside>
+          <div class="progress-card">
+            <span class="meta-label">Archive</span>
+            <strong>Flat vault</strong>
+          </div>
+          <div class="progress-card">
+            <span class="meta-label">Entry points</span>
+            <strong>Search, tags, latest</strong>
+          </div>
+        </div>
 
-        <article id="reader" class="reader" aria-live="polite"></article>
-      </main>
+        <main class="layout">
+          <aside class="index-panel" aria-label="Note index">
+            <div class="index-header">
+              <p class="index-title">Catalog</p>
+              <span id="result-count-dup" class="result-count">0 notes</span>
+            </div>
+            <div id="note-list" class="note-list"></div>
+          </aside>
+
+          <article id="reader" class="reader" aria-live="polite"></article>
+        </main>
+      </section>
 
       <section class="colophon" id="colophon" aria-label="Colophon">
         <div>
