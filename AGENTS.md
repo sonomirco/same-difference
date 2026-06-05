@@ -6,6 +6,8 @@ This folder contains a growing set of thinking notes on AEC, AI, product strateg
 
 A Thought is one idea, developed in 3–6 paragraphs of running prose. It is written in the first person or close to it, as if thinking out loud. It is not a summary of sources, a bullet-point list, or a structured reference document. Think of The Champion Problem or The Collapsing Distance as the reference register.
 
+The archive reader is date-first and grouped by year. Tags are not a top-level catalogue filter; they live inside notes and clicking a tag filters the catalogue immediately.
+
 ## File format
 
 Every file must follow this exact structure:
@@ -39,10 +41,11 @@ Sources:
 - **No ## section headers** anywhere in the body
 - **One bold line** per note — the sentence that carries the most weight
 - **No trailing hashtags** (`#AEC`, `#AI`, etc.) — tags live in the frontmatter
-- **Footer block**: always after a `---` separator; contains `Related:` (2–4 wiki-links) and `Sources:` (raw URLs if applicable)
+- **Footer block**: always after a `---` separator; contains `Related:` (2–4 wiki-links) and `Sources:` (raw URLs only)
 - **Wiki-links**: every note must link to at least 2 other notes via `[[filename]]`
 - `Related:` = thematic neighbours in the vault — notes this one builds on, extends, or contradicts
-- `Sources:` = external URLs (articles, podcasts, videos); omit if the note is original thinking with no external source
+- `Sources:` = external URLs only (articles, podcasts, videos); omit if the note is original thinking with no external source
+- Keep source URLs raw in markdown footers; the site generator turns them into clickable links
 
 ### Groups vocabulary
 Use existing groups first, add new ones only when the note is genuinely new territory:
@@ -65,6 +68,13 @@ bash /Users/biancopeve/Documents/sonomirco/Thoughts/lint-thoughts.sh
 2. Add frontmatter with `groups:`, `tags:`, and `date:`
 3. Add the footer block with at least 2 `Related:` wiki-links
 4. Run lint to verify before saving
+
+## Reader behaviour
+
+- The GitHub Pages reader lives in `docs/` and is generated from the vault.
+- The archive opens the latest note by default.
+- Notes show `Sources` as external URLs and `Connected notes` as internal navigation pills.
+- Clicking a tag inside a note filters the catalogue immediately.
 
 ## Theme clusters
 
