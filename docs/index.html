@@ -20,10 +20,6 @@
   <body>
     <div class="page" id="top">
       <header class="topbar">
-        <a class="brand" href="#top">
-          <span>SAME DIFFERENCE</span>
-          <span>patterns across fields</span>
-        </a>
         <a class="repo-link" href="https://github.com/sonomirco/same-difference" target="_blank" rel="noreferrer noopener">
           GitHub
         </a>
@@ -36,9 +32,22 @@
         </div>
       </section>
 
+      <section class="stats-band" id="stats-band" aria-label="Archive overview"></section>
+
       <section class="catalog-shell" id="catalog">
         <header class="catalog-head">
           <p class="catalog-title">Catalog</p>
+          <div class="catalog-tools">
+            <input
+              id="search"
+              class="search-input"
+              type="search"
+              placeholder="Search notes…"
+              aria-label="Search notes"
+              autocomplete="off"
+            />
+            <p class="result-count" id="result-count" aria-live="polite"></p>
+          </div>
         </header>
 
         <main class="layout">

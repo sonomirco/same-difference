@@ -107,7 +107,7 @@ select {
 
 .hero h1 {
   margin: 0;
-  color: #7f97ff;
+  color: var(--accent-strong);
   font-family: "VT323", monospace;
   font-size: clamp(3.5rem, 8vw, 7rem);
   line-height: 0.84;
@@ -125,17 +125,102 @@ select {
   line-height: 1.7;
 }
 
+.stats-band {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin-top: 22px;
+  border: 1px solid var(--line);
+  background: var(--line);
+  box-shadow: var(--shadow);
+}
+
+.stat-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 20px;
+  background: var(--panel);
+}
+
+.stat-value {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--accent-strong);
+}
+
+.stat-label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
 .catalog-shell {
   padding-top: 18px;
 }
 
 .catalog-head {
   display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
   margin-bottom: 14px;
   padding-bottom: 12px;
   border-bottom: 1px solid var(--line);
+}
+
+.catalog-tools {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.search-input {
+  width: min(320px, 60vw);
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.85rem;
+}
+
+.search-input::placeholder {
+  color: var(--faint);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--line-strong);
+  background: rgba(128, 149, 255, 0.06);
+}
+
+.result-count {
+  margin: 0;
+  color: var(--faint);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.clear-btn {
+  border: 0;
+  padding: 0;
+  background: none;
+  color: var(--accent-strong);
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.clear-btn:hover {
+  color: var(--text);
 }
 
 .catalog-title {

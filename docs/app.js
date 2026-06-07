@@ -3,11 +3,15 @@ const state = {
   filtered: [],
   activeSlug: null,
   activeTag: 'all',
+  query: '',
 };
 
 const els = {
   noteList: document.getElementById('note-list'),
   reader: document.getElementById('reader'),
+  search: document.getElementById('search'),
+  resultCount: document.getElementById('result-count'),
+  statsBand: document.getElementById('stats-band'),
 };
 
 const formatDate = new Intl.DateTimeFormat('en-US', {
@@ -50,13 +54,77 @@ function prettyTag(tag) {
     .join(' ');
 }
 
+const stripper = document.createElement('div');
+
+function stripHtml(html) {
+  stripper.innerHTML = html || '';
+  return stripper.textContent || '';
+}
+
 function noteMatches(note) {
-  return state.activeTag === 'all' || note.tags.includes(state.activeTag);
+  const tagOk = state.activeTag === 'all' || note.tags.includes(state.activeTag);
+  const queryOk = !state.query || note.searchText.includes(state.query);
+  return tagOk && queryOk;
+}
+
+function renderStats() {
+  if (!els.statsBand) return;
+
+  const years = state.notes.map((note) => note.date.slice(0, 4)).filter(Boolean);
+  const minYear = years.length ? Math.min(...years.map(Number)) : '—';
+  const maxYear = years.length ? Math.max(...years.map(Number)) : '—';
+  const tagSet = new Set();
+  state.notes.forEach((note) => note.tags.forEach((tag) => tagSet.add(tag)));
+
+  const cells = [
+    ['Notes', state.notes.length],
+    ['Span', minYear === maxYear ? `${minYear}` : `${minYear}–${maxYear}`],
+    ['Themes', tagSet.size],
+  ];
+
+  els.statsBand.innerHTML = cells
+    .map(
+      ([label, value]) => `
+        <div class="stat-cell">
+          <span class="stat-value">${escapeHtml(String(value))}</span>
+          <span class="stat-label">${escapeHtml(label)}</span>
+        </div>
+      `
+    )
+    .join('');
+}
+
+function updateResultCount() {
+  if (!els.resultCount) return;
+
+  const total = state.notes.length;
+  const shown = state.filtered.length;
+  const filtering = Boolean(state.query) || state.activeTag !== 'all';
+
+  els.resultCount.innerHTML = filtering
+    ? `${shown} of ${total} · <button type="button" class="clear-btn" data-clear>clear</button>`
+    : `${total} notes`;
+}
+
+function clearFilters() {
+  state.query = '';
+  state.activeTag = 'all';
+  if (els.search) els.search.value = '';
+  refreshView();
+}
+
+function navigateList(delta) {
+  if (!state.filtered.length) return;
+
+  const index = state.filtered.findIndex((note) => note.slug === state.activeSlug);
+  const nextIndex = index < 0 ? 0 : Math.min(state.filtered.length - 1, Math.max(0, index + delta));
+  const next = state.filtered[nextIndex];
+  if (next) selectNote(next.slug);
 }
 
 function renderList() {
   if (!state.filtered.length) {
-    els.noteList.innerHTML = '<div class="empty-state">No notes match this tag.</div>';
+    els.noteList.innerHTML = '<div class="empty-state">No notes match.</div>';
     return;
   }
 
@@ -189,6 +257,7 @@ function syncHash(note, shouldSyncHash) {
 function refreshView({ updateHash = true } = {}) {
   state.filtered = state.notes.filter(noteMatches);
   renderList();
+  updateResultCount();
 
   const current = state.filtered.find((note) => note.slug === state.activeSlug) || state.filtered[0] || null;
   state.activeSlug = current ? current.slug : null;
@@ -217,7 +286,12 @@ async function boot() {
   const data = await response.json();
 
   state.notes = data.notes;
+  state.notes.forEach((note) => {
+    note.searchText = `${note.title} ${note.tags.map(prettyTag).join(' ')} ${note.tags.join(' ')} ${stripHtml(note.bodyHtml)}`.toLowerCase();
+  });
   state.activeSlug = slugFromHash() || state.notes[0]?.slug || null;
+
+  renderStats();
 
   if (location.hash === '#top') {
     history.replaceState(null, '', `${location.pathname}${location.search}`);
@@ -238,6 +312,44 @@ els.reader.addEventListener('click', (event) => {
   if (!button) return;
 
   setTagFilter(button.dataset.tag);
+});
+
+els.search?.addEventListener('input', () => {
+  state.query = els.search.value.trim().toLowerCase();
+  refreshView();
+});
+
+els.resultCount?.addEventListener('click', (event) => {
+  if (event.target.closest('[data-clear]')) clearFilters();
+});
+
+window.addEventListener('keydown', (event) => {
+  if (event.metaKey || event.ctrlKey || event.altKey) return;
+
+  const activeTag = document.activeElement?.tagName;
+  const typingElsewhere = (activeTag === 'INPUT' || activeTag === 'TEXTAREA') && document.activeElement !== els.search;
+
+  if (event.key === '/' && activeTag !== 'INPUT' && activeTag !== 'TEXTAREA') {
+    event.preventDefault();
+    els.search?.focus();
+    return;
+  }
+
+  if (event.key === 'Escape') {
+    if (state.query || state.activeTag !== 'all') clearFilters();
+    els.search?.blur();
+    return;
+  }
+
+  if (typingElsewhere) return;
+
+  if (event.key === 'ArrowDown') {
+    event.preventDefault();
+    navigateList(1);
+  } else if (event.key === 'ArrowUp') {
+    event.preventDefault();
+    navigateList(-1);
+  }
 });
 
 window.addEventListener('hashchange', () => {
