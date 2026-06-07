@@ -11,7 +11,6 @@ const els = {
   reader: document.getElementById('reader'),
   search: document.getElementById('search'),
   resultCount: document.getElementById('result-count'),
-  statsBand: document.getElementById('stats-band'),
 };
 
 const formatDate = new Intl.DateTimeFormat('en-US', {
@@ -67,33 +66,6 @@ function noteMatches(note) {
   return tagOk && queryOk;
 }
 
-function renderStats() {
-  if (!els.statsBand) return;
-
-  const years = state.notes.map((note) => note.date.slice(0, 4)).filter(Boolean);
-  const minYear = years.length ? Math.min(...years.map(Number)) : '—';
-  const maxYear = years.length ? Math.max(...years.map(Number)) : '—';
-  const tagSet = new Set();
-  state.notes.forEach((note) => note.tags.forEach((tag) => tagSet.add(tag)));
-
-  const cells = [
-    ['Notes', state.notes.length],
-    ['Span', minYear === maxYear ? `${minYear}` : `${minYear}–${maxYear}`],
-    ['Themes', tagSet.size],
-  ];
-
-  els.statsBand.innerHTML = cells
-    .map(
-      ([label, value]) => `
-        <div class="stat-cell">
-          <span class="stat-value">${escapeHtml(String(value))}</span>
-          <span class="stat-label">${escapeHtml(label)}</span>
-        </div>
-      `
-    )
-    .join('');
-}
-
 function updateResultCount() {
   if (!els.resultCount) return;
 
@@ -103,7 +75,7 @@ function updateResultCount() {
 
   els.resultCount.innerHTML = filtering
     ? `${shown} of ${total} · <button type="button" class="clear-btn" data-clear>clear</button>`
-    : `${total} notes`;
+    : '';
 }
 
 function clearFilters() {
@@ -290,8 +262,6 @@ async function boot() {
     note.searchText = `${note.title} ${note.tags.map(prettyTag).join(' ')} ${note.tags.join(' ')} ${stripHtml(note.bodyHtml)}`.toLowerCase();
   });
   state.activeSlug = slugFromHash() || state.notes[0]?.slug || null;
-
-  renderStats();
 
   if (location.hash === '#top') {
     history.replaceState(null, '', `${location.pathname}${location.search}`);
