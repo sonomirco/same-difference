@@ -11,6 +11,45 @@
   --accent-strong: #aebdff;
   --shadow: 0 18px 60px rgba(0, 0, 0, 0.34);
   --max: 1180px;
+
+  /* themable surfaces */
+  --body-grad-top: #090a11;
+  --body-grad-bottom: #06070b;
+  --glow: rgba(128, 149, 255, 0.09);
+  --dot: rgba(255, 255, 255, 0.09);
+  --tint: rgba(255, 255, 255, 0.03);
+  --tint-strong: rgba(255, 255, 255, 0.05);
+  --accent-bg: rgba(128, 149, 255, 0.08);
+  --accent-bg-strong: rgba(128, 149, 255, 0.14);
+  --reader-text: #e5e9ee;
+  --strong: #ffffff;
+  --quote-border: rgba(141, 215, 255, 0.35);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #fff6de;
+  --panel: #fffcf2;
+  --text: #2c2a24;
+  --muted: #6f6a5c;
+  --faint: #9a9484;
+  --line: rgba(60, 48, 22, 0.14);
+  --line-strong: rgba(244, 143, 104, 0.55);
+  --accent: #d9663d;
+  --accent-strong: #b84d28;
+  --shadow: 0 18px 50px rgba(120, 90, 40, 0.16);
+
+  --body-grad-top: #fff8e6;
+  --body-grad-bottom: #fff1d4;
+  --glow: rgba(139, 223, 221, 0.28);
+  --dot: rgba(54, 42, 18, 0.16);
+  --tint: rgba(244, 143, 104, 0.07);
+  --tint-strong: rgba(244, 143, 104, 0.12);
+  --accent-bg: rgba(139, 223, 221, 0.24);
+  --accent-bg-strong: rgba(255, 227, 148, 0.55);
+  --reader-text: #3a352c;
+  --strong: #1f1c15;
+  --quote-border: rgba(139, 223, 221, 0.75);
 }
 
 * {
@@ -27,8 +66,8 @@ body {
   color: var(--text);
   font-family: "Source Serif 4", Georgia, serif;
   background:
-    radial-gradient(circle at top, rgba(128, 149, 255, 0.09), transparent 26%),
-    linear-gradient(180deg, #090a11 0%, #06070b 100%);
+    radial-gradient(circle at top, var(--glow), transparent 26%),
+    linear-gradient(180deg, var(--body-grad-top) 0%, var(--body-grad-bottom) 100%);
 }
 
 body::before {
@@ -36,7 +75,7 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.09) 1px, transparent 1px);
+  background-image: radial-gradient(var(--dot) 1px, transparent 1px);
   background-size: 20px 20px;
   opacity: 0.6;
   mask-image: linear-gradient(180deg, black 0%, black 52%, transparent 92%);
@@ -101,7 +140,7 @@ select {
   padding: 7px 13px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--tint);
   color: var(--muted);
   font-family: "JetBrains Mono", monospace;
   font-size: 0.85rem;
@@ -111,8 +150,45 @@ select {
 
 .repo-link:hover {
   border-color: var(--line-strong);
-  background: rgba(128, 149, 255, 0.06);
+  background: var(--accent-bg);
   color: var(--accent-strong);
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--tint);
+  color: var(--muted);
+  cursor: pointer;
+  transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+}
+
+.theme-toggle:hover {
+  border-color: var(--line-strong);
+  background: var(--accent-bg);
+  color: var(--accent-strong);
+}
+
+.theme-toggle .icon-sun {
+  display: block;
+}
+
+.theme-toggle .icon-moon {
+  display: none;
+}
+
+[data-theme="light"] .theme-toggle .icon-sun {
+  display: none;
+}
+
+[data-theme="light"] .theme-toggle .icon-moon {
+  display: block;
 }
 
 .gh-icon {
@@ -185,7 +261,7 @@ select {
   padding: 8px 12px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--tint);
   color: var(--text);
   font-family: "JetBrains Mono", monospace;
   font-size: 0.85rem;
@@ -198,7 +274,7 @@ select {
 .search-input:focus {
   outline: none;
   border-color: var(--line-strong);
-  background: rgba(128, 149, 255, 0.06);
+  background: var(--accent-bg);
 }
 
 .result-count {
@@ -296,11 +372,11 @@ select {
 }
 
 .note-btn:hover {
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--tint);
 }
 
 .note-btn[data-active="true"] {
-  background: rgba(128, 149, 255, 0.08);
+  background: var(--accent-bg);
   color: var(--accent-strong);
 }
 
@@ -390,7 +466,7 @@ select {
 }
 
 .tag-chip-button {
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--tint);
   cursor: pointer;
   transition: transform 160ms ease, border-color 160ms ease, background 160ms ease, color 160ms ease;
   color: var(--accent-strong);
@@ -399,17 +475,17 @@ select {
 .tag-chip-button:hover {
   transform: translateY(-1px);
   border-color: var(--line-strong);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--tint-strong);
 }
 
 .tag-chip-button[data-active="true"] {
-  background: rgba(128, 149, 255, 0.14);
-  border-color: rgba(128, 149, 255, 0.5);
+  background: var(--accent-bg-strong);
+  border-color: var(--line-strong);
   color: var(--accent-strong);
 }
 
 .reader-body {
-  color: #e5e9ee;
+  color: var(--reader-text);
   font-size: 1.05rem;
   line-height: 1.85;
 }
@@ -424,7 +500,7 @@ select {
 }
 
 .reader-body strong {
-  color: #fff;
+  color: var(--strong);
   font-weight: 700;
 }
 
@@ -447,7 +523,7 @@ select {
 .reader-body blockquote {
   margin: 0 0 1.2em;
   padding: 0.1em 0 0.1em 1rem;
-  border-left: 2px solid rgba(141, 215, 255, 0.35);
+  border-left: 2px solid var(--quote-border);
   color: var(--muted);
 }
 
@@ -458,7 +534,7 @@ select {
 .reader-body code {
   padding: 0.12em 0.35em;
   border-radius: 6px;
-  background: rgba(255, 255, 255, 0.06);
+  background: var(--tint-strong);
   font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 0.92em;
 }
@@ -489,9 +565,9 @@ select {
   align-items: center;
   min-height: 32px;
   padding: 0 10px;
-  border: 1px solid rgba(174, 189, 255, 0.28);
+  border: 1px solid var(--line-strong);
   border-radius: 999px;
-  background: rgba(128, 149, 255, 0.08);
+  background: var(--accent-bg);
   color: var(--accent-strong);
   font-size: 0.9rem;
 }

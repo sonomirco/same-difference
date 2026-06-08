@@ -322,6 +322,26 @@ window.addEventListener('keydown', (event) => {
   }
 });
 
+const themeToggle = document.getElementById('theme-toggle');
+
+function syncThemeLabel() {
+  const isLight = document.documentElement.dataset.theme === 'light';
+  themeToggle?.setAttribute('aria-label', isLight ? 'Switch to dark theme' : 'Switch to light theme');
+}
+
+syncThemeLabel();
+
+themeToggle?.addEventListener('click', () => {
+  const next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+  document.documentElement.dataset.theme = next;
+  try {
+    localStorage.setItem('theme', next);
+  } catch (e) {
+    /* storage unavailable — theme still applies for this session */
+  }
+  syncThemeLabel();
+});
+
 window.addEventListener('hashchange', () => {
   const slug = slugFromHash();
   if (!slug || !getNoteBySlug(slug)) return;
