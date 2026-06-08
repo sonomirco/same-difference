@@ -1,32 +1,4 @@
 :root {
-  color-scheme: dark;
-  --bg: #07080d;
-  --panel: rgba(12, 14, 22, 0.92);
-  --text: #f3f5f7;
-  --muted: #a9b2bc;
-  --faint: #7d8790;
-  --line: rgba(255, 255, 255, 0.09);
-  --line-strong: rgba(128, 149, 255, 0.45);
-  --accent: #8095ff;
-  --accent-strong: #aebdff;
-  --shadow: 0 18px 60px rgba(0, 0, 0, 0.34);
-  --max: 1180px;
-
-  /* themable surfaces */
-  --body-grad-top: #090a11;
-  --body-grad-bottom: #06070b;
-  --glow: rgba(128, 149, 255, 0.09);
-  --dot: rgba(255, 255, 255, 0.09);
-  --tint: rgba(255, 255, 255, 0.03);
-  --tint-strong: rgba(255, 255, 255, 0.05);
-  --accent-bg: rgba(128, 149, 255, 0.08);
-  --accent-bg-strong: rgba(128, 149, 255, 0.14);
-  --reader-text: #e5e9ee;
-  --strong: #ffffff;
-  --quote-border: rgba(141, 215, 255, 0.35);
-}
-
-[data-theme="light"] {
   color-scheme: light;
   --bg: #fff6de;
   --panel: #fffcf2;
@@ -38,7 +10,9 @@
   --accent: #d9663d;
   --accent-strong: #b84d28;
   --shadow: 0 18px 50px rgba(120, 90, 40, 0.16);
+  --max: 1180px;
 
+  /* themable surfaces */
   --body-grad-top: #fff8e6;
   --body-grad-bottom: #fff1d4;
   --glow: rgba(139, 223, 221, 0.28);
@@ -50,6 +24,32 @@
   --reader-text: #3a352c;
   --strong: #1f1c15;
   --quote-border: rgba(139, 223, 221, 0.75);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #07080d;
+  --panel: rgba(12, 14, 22, 0.92);
+  --text: #f3f5f7;
+  --muted: #a9b2bc;
+  --faint: #7d8790;
+  --line: rgba(255, 255, 255, 0.09);
+  --line-strong: rgba(128, 149, 255, 0.45);
+  --accent: #8095ff;
+  --accent-strong: #aebdff;
+  --shadow: 0 18px 60px rgba(0, 0, 0, 0.34);
+
+  --body-grad-top: #090a11;
+  --body-grad-bottom: #06070b;
+  --glow: rgba(128, 149, 255, 0.09);
+  --dot: rgba(255, 255, 255, 0.09);
+  --tint: rgba(255, 255, 255, 0.03);
+  --tint-strong: rgba(255, 255, 255, 0.05);
+  --accent-bg: rgba(128, 149, 255, 0.08);
+  --accent-bg-strong: rgba(128, 149, 255, 0.14);
+  --reader-text: #e5e9ee;
+  --strong: #ffffff;
+  --quote-border: rgba(141, 215, 255, 0.35);
 }
 
 * {
@@ -176,19 +176,19 @@ select {
 }
 
 .theme-toggle .icon-sun {
-  display: block;
+  display: none;
 }
 
 .theme-toggle .icon-moon {
-  display: none;
-}
-
-[data-theme="light"] .theme-toggle .icon-sun {
-  display: none;
-}
-
-[data-theme="light"] .theme-toggle .icon-moon {
   display: block;
+}
+
+[data-theme="dark"] .theme-toggle .icon-sun {
+  display: block;
+}
+
+[data-theme="dark"] .theme-toggle .icon-moon {
+  display: none;
 }
 
 .gh-icon {
