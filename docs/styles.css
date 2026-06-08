@@ -151,6 +151,14 @@ select {
   font-size: 1rem;
 }
 
+.hero-ref {
+  margin-top: 18px;
+  color: var(--faint);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.82rem;
+  letter-spacing: 0.01em;
+}
+
 .catalog-shell {
   padding-top: 18px;
 }
