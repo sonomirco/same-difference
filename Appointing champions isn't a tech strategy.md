@@ -31,3 +31,6 @@ The goal was never to find people willing to try — plenty of firms have those.
 ---
 
 Related: [[Corporate fear and startup agility]], [[Building psychologically safe teams]], [[Why technology adoption is poor in AEC]], [[Rigorous where it counts]].
+
+Sources:
+- https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools

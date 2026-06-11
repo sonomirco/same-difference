@@ -41,3 +41,4 @@ Related: [[Two moves that look different are actually the same strategy]], [[Eve
 
 Sources:
 - https://youtu.be/hWFhAPnRRPE?t=847
+- https://www.bcg.com/publications/2026/scaling-ai-requires-new-processes-not-just-new-tools

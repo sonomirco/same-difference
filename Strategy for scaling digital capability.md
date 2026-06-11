@@ -33,3 +33,5 @@ Related: [[Computational design]], [[Product management in complex organizations
 
 Sources:
 - https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/digital-strategy-the-four-fights-you-have-to-win
+- https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools
+- https://www.bcg.com/publications/2026/scaling-ai-requires-new-processes-not-just-new-tools

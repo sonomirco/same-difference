@@ -28,3 +28,4 @@ Related: [[Configurators and infrastructure thinking]], [[Democratising computat
 
 Sources:
 - https://twitter.com/vwnd_/status/1497901961798111235
+- https://www.bcg.com/publications/2026/scaling-ai-requires-new-processes-not-just-new-tools

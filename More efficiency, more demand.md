@@ -39,3 +39,4 @@ Related: [[The Jevons paradox]], [[The Automation Ceiling]], [[Skills aren't jus
 
 Sources:
 - https://mikefisher.substack.com/p/more-efficiency-more-demand
+- https://every.to/also-true-for-humans/how-microsoft-is-building-for-a-world-of-metered-intelligence

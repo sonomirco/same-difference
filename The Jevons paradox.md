@@ -28,3 +28,4 @@ Related: [[More efficiency, more demand]], [[The Automation Ceiling]], [[From T&
 
 Sources:
 - https://lnkd.in/grp8kGjK
+- https://every.to/also-true-for-humans/how-microsoft-is-building-for-a-world-of-metered-intelligence

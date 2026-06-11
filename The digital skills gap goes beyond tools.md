@@ -35,3 +35,4 @@ Related: [[Why technology adoption is poor in AEC]], [[Communication and clarity
 
 Sources:
 - https://lnkd.in/dyBZAdJt
+- https://www.bcg.com/publications/2026/ai-at-work-why-strategy-matters-more-than-tools
