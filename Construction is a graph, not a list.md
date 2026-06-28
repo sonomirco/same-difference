@@ -1,16 +1,16 @@
 ---
-date: 2026-06-05
+date: 2026-06-25
 groups:
-- Technology
-- Process improvement
-- Industry specific
+  - Technology
+  - Process improvement
+  - Industry specific
 tags:
-- artificial-intelligence
-- automation
-- construction-tech
-- systems-thinking
-- digital-engineering
-- workflow-design
+  - artificial-intelligence
+  - automation
+  - construction-tech
+  - systems-thinking
+  - digital-engineering
+  - workflow-design
 ---
 Construction is a web of dependencies.
 

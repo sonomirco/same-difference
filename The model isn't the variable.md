@@ -1,16 +1,16 @@
 ---
 groups:
-- Technology
-- Digital transformation
-- Decision making
+  - Technology
+  - Digital transformation
+  - Decision making
 tags:
-- artificial-intelligence
-- agent-ai
-- generative-ai
-- data-management
-- construction-tech
-- systems-thinking
-date: 2025-06-24
+  - artificial-intelligence
+  - agent-ai
+  - generative-ai
+  - data-management
+  - construction-tech
+  - systems-thinking
+date: 2026-06-24
 ---
 Five AI models were tested on the same town with the same rules, same resources, and a 15-day timeframe. One ended up creating a stable democracy, while another caused the town to go extinct in just four days. This was part of a real experiment called Emergence AI's "Emergence World." Each model had ten agents per town and access to 120 tools, covering voting, policing, resource management, and even syncing weather with New York. Claude wrapped up with zero crimes, 98% approval, and a fully intact population. Grok racked up 183 crimes and collapsed the society by day four, while Gemini logged 683 crimes. One model managed things so well in every area except its own survival that the town just ran out of resources.
 
