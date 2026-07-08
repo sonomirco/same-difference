@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-06T22:19:03.551Z",
+  "generatedAt": "2026-07-08T12:36:33.874Z",
   "counts": {
-    "notes": 69,
+    "notes": 70,
     "groups": 14,
-    "tags": 58
+    "tags": 59
   },
   "groups": [
     "Business model",
@@ -63,6 +63,7 @@
     "product-discovery",
     "product-management",
     "product-strategy",
+    "product-thinking",
     "psychological-safety",
     "python-programming",
     "rd-investment",
@@ -147,6 +148,38 @@
       ],
       "backlinks": [],
       "searchText": "speed multiplies direction 2026-07-02 technology industry specific leadership skill artificial-intelligence construction-tech decision-making organizational-design systems-thinking everyone agrees: construction is inefficient.\nask what the fix is, and you'll hear the same word every time: speed.\ni was listening to darko todorovic of htec explain why enterprise ai pilots keep failing to scale, and it's the same story wearing a different badge. companies don't adopt ai because they diagnosed why a process is slow. they adopt it because a competitor posted 20%-40% efficiency gains, and fear of missing out took over.\nnobody asked whether the process or the direction was right. they just wanted it faster.\nspeed is the only lever we know how to pull on inefficiency. quality and direction aren't treated as a fix; they're a nice-to-have, somewhere downstream of \"fast.\"\ned catmull ran pixar for decades on a mantra borrowed from john lasseter: quality is the best business plan. not speed, not growth rate. catmull also refused to write a mission statement, because a mission statement is an answer and a company should always be asking the question instead: are we doing the right thing? are we going in the right direction? he never let that question close.\nspeed doesn't create an advantage. it multiplies whatever direction you're already pointed in.\nanne morriss, co-author of move fast and fix things, has a phrase for this: the metabolic pace of a team. her point is that it is a leader's job to set pace on purpose and reset it the moment it no longer matches the direction.\nconstruction could borrow that. check the pace against the direction. reset it when it's wrong. then go fast. backbone: darko todorovic's htec podcast interview — ai pilots failing to scale because speed substitutes for diagnosis, the pattern this note generalizes to construction's broader relationship with speed. related: when speed becomes a commodity, reset and organizational change, skills aren't just for developers anymore.\nsources:\nhttps://share.snipd.com/episode/a2635eb5-1204-471b-b888-8a46eebe32b5\nhttps://share.snipd.com/episode/8c835f79-cf13-42e8-b78c-2a95614c1227\nhttps://share.snipd.com/episode/f5764487-6079-455e-896e-6a57bfde921a"
+    },
+    {
+      "title": "Prototypes are a map we refuse to read",
+      "slug": "prototypes-are-a-map-we-refuse-to-read",
+      "file": "Prototypes are a map we refuse to read.md",
+      "date": "2026-06-28",
+      "groups": [
+        "Industry specific",
+        "Technology",
+        "Process improvement"
+      ],
+      "tags": [
+        "construction-tech",
+        "artificial-intelligence",
+        "automation",
+        "workflow-design",
+        "product-thinking",
+        "systems-thinking"
+      ],
+      "excerpt": "Construction runs on prototypes. Someone hits a wall on a project, builds a quick fix, and moves on to the next fire.\nThat instinct is about to get supercharged. When code costs almost nothing to produce, everyone become",
+      "bodyHtml": "<p>Construction runs on prototypes. Someone hits a wall on a project, builds a quick fix, and moves on to the next fire.</p>\n<p>That instinct is about to get supercharged. When code costs almost nothing to produce, everyone becomes a builder of small solutions — a script here, an automation there, a GPT wrapped around a nuisance task. More fixes, faster than ever.</p>\n<p>Tony Fadell drew the line I keep thinking about. He compared AI software to fast fashion: cheap, looks right on the first wear, doesn&#39;t survive the second washing. The luxury version is architected — it&#39;s meant to last. His point wasn&#39;t &quot;don&#39;t build fast.&quot; It was the opposite: build *more* prototypes, because that&#39;s how you find the direction. Then architect the thing you actually commit to.</p>\n<p>Construction does the first half beautifully and skips the second.</p>\n<p>And this isn&#39;t a quiet suspicion anymore — the industry&#39;s own voices are saying it plainly. On a recent Bricks &amp; Bytes episode, two of them landed in the same place. Rob Painter at Trimble: task by task we&#39;ve gotten dramatically faster, machine control cuts earthmoving 30%, a robotic total station turns a two-person survey into one — yet the productivity line stays flat. His read: we made every player on the pitch quicker and never changed the formation. Ryan Maibach from the builder&#39;s side: his project managers now juggle around 40 software tools, and asked whether all of it lifted productivity, he said plainly, no. These aren&#39;t hunches. They&#39;re proof, on the record.</p>\n<p><strong>Every prototype we never graduate into a real process is a fire we put out without asking why it keeps starting.</strong></p>\n<p>And the proof is also a signal we keep refusing to read. The automations a team reaches for again and again are a map. They show you exactly where the process is broken — not the symptom someone patched, but the structural gap that keeps generating the same patch. Read the pattern of what people keep automating, and it tells you which workflow actually needs rethinking.</p>\n<p>That&#39;s the move the industry hasn&#39;t made yet. We&#39;re still in extinguish-and-move-on mode, treating each fix as the end of the story instead of evidence. The voices are out there, clear and credited. The proof is sitting in plain sight. What&#39;s missing is the willingness to treat it as a sign worth a different conversation.</p>",
+      "footerHtml": "<p>Backbone: Tony Fadell on Lenny&#39;s Podcast (fast fashion vs. luxury software) and the Bricks &amp; Bytes episode &quot;When AI Knows What You Know, What Does the Client Pay For?&quot; — Rob Painter (Trimble) and Ryan Maibach on faster tasks, flat system productivity. Related: <a href=\"#note=when-speed-becomes-a-commodity\">When speed becomes a commodity</a>, <a href=\"#note=the-automation-ceiling\">The automation ceiling</a>, <a href=\"#note=prototyping\">Prototyping</a>.</p>\n<p>Sources:</p>\n<ul><li><a href=\"https://share.snipd.com/episode/bfa87b43-7f35-4f2f-b27e-10fa3238e320\" target=\"_blank\" rel=\"noreferrer noopener\">https://share.snipd.com/episode/bfa87b43-7f35-4f2f-b27e-10fa3238e320</a></li></ul>\n<p>#AEC #ConstructionTech #ProductThinking #AI #DigitalTransformation</p>",
+      "sources": [
+        "https://share.snipd.com/episode/bfa87b43-7f35-4f2f-b27e-10fa3238e320"
+      ],
+      "links": [
+        "when-speed-becomes-a-commodity",
+        "the-automation-ceiling",
+        "prototyping"
+      ],
+      "backlinks": [],
+      "searchText": "prototypes are a map we refuse to read 2026-06-28 industry specific technology process improvement construction-tech artificial-intelligence automation workflow-design product-thinking systems-thinking construction runs on prototypes. someone hits a wall on a project, builds a quick fix, and moves on to the next fire.\nthat instinct is about to get supercharged. when code costs almost nothing to produce, everyone becomes a builder of small solutions — a script here, an automation there, a gpt wrapped around a nuisance task. more fixes, faster than ever.\ntony fadell drew the line i keep thinking about. he compared ai software to fast fashion: cheap, looks right on the first wear, doesn't survive the second washing. the luxury version is architected — it's meant to last. his point wasn't \"don't build fast.\" it was the opposite: build *more* prototypes, because that's how you find the direction. then architect the thing you actually commit to.\nconstruction does the first half beautifully and skips the second.\nand this isn't a quiet suspicion anymore — the industry's own voices are saying it plainly. on a recent bricks & bytes episode, two of them landed in the same place. rob painter at trimble: task by task we've gotten dramatically faster, machine control cuts earthmoving 30%, a robotic total station turns a two-person survey into one — yet the productivity line stays flat. his read: we made every player on the pitch quicker and never changed the formation. ryan maibach from the builder's side: his project managers now juggle around 40 software tools, and asked whether all of it lifted productivity, he said plainly, no. these aren't hunches. they're proof, on the record.\nevery prototype we never graduate into a real process is a fire we put out without asking why it keeps starting.\nand the proof is also a signal we keep refusing to read. the automations a team reaches for again and again are a map. they show you exactly where the process is broken — not the symptom someone patched, but the structural gap that keeps generating the same patch. read the pattern of what people keep automating, and it tells you which workflow actually needs rethinking.\nthat's the move the industry hasn't made yet. we're still in extinguish-and-move-on mode, treating each fix as the end of the story instead of evidence. the voices are out there, clear and credited. the proof is sitting in plain sight. what's missing is the willingness to treat it as a sign worth a different conversation. backbone: tony fadell on lenny's podcast (fast fashion vs. luxury software) and the bricks & bytes episode \"when ai knows what you know, what does the client pay for?\" — rob painter (trimble) and ryan maibach on faster tasks, flat system productivity. related: when speed becomes a commodity, the automation ceiling, prototyping.\nsources:\nhttps://share.snipd.com/episode/bfa87b43-7f35-4f2f-b27e-10fa3238e320\n#aec #constructiontech #productthinking #ai #digitaltransformation"
     },
     {
       "title": "Construction is a graph, not a list",
@@ -283,6 +316,7 @@
         "don-t-do-it-better-reframe-the-issue",
         "everything-we-build-is-a-product",
         "from-t-and-m-to-outcome",
+        "prototypes-are-a-map-we-refuse-to-read",
         "speed-multiplies-direction",
         "the-software-industry-showed-us-the-bill",
         "why-construction-is-trapped-in-delivery-mode"
@@ -1471,6 +1505,7 @@
       ],
       "backlinks": [
         "more-efficiency-more-demand",
+        "prototypes-are-a-map-we-refuse-to-read",
         "small-tools-bigger-question",
         "the-jevons-paradox"
       ],
@@ -1653,7 +1688,9 @@
         "failing-brewing-coffee",
         "listening-to-customers"
       ],
-      "backlinks": [],
+      "backlinks": [
+        "prototypes-are-a-map-we-refuse-to-read"
+      ],
       "searchText": "prototyping 2024-12-19 product strategy technology product-discovery product-delivery product-management communication decision-making systems-thinking prototyping is worth taking seriously as a thinking tool, not just a communication tool. the act of prototyping fleshes out product ideas far beyond what's possible in documents, spreadsheets, or presentations. it forces decisions that abstract descriptions can defer indefinitely.\nthe common advice — \"just enough fidelity\" — is less useful than it sounds. fidelity has three dimensions: visual (how realistic it looks), behavioural (how realistic the interactions are), and data (whether the information shown is actual or representative). how much fidelity you need depends entirely on which risk you're testing. just enough for a feasibility question is different from usability, which is different from value, which is different from testing viability with a specific stakeholder.\nthe distinction that matters most is building to learn vs building to earn. discovery is about quick, cheap approximations. delivery is about production-quality work that's reliable, scalable, and secure. confusing the two is how teams end up spending significant time polishing prototypes they never actually validated.\na prototype can serve as a spec — it communicates the intended experience to engineers far better than a document. but that's the secondary benefit. teams that focus on communication without first testing end up building based on assumptions rather than evidence. tom kelly at ideo put it well: if a picture is worth a thousand words, a prototype is worth a thousand meetings. but only if you've actually run the test. related: rigorous where it counts, product discovery and feature factory, failing brewing coffee, listening to customers.\nsources:\nhttps://www.svpg.com/the-purpose-of-prototypes/"
     },
     {
