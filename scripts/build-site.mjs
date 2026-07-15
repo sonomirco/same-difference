@@ -69,36 +69,48 @@ function parseFrontmatter(lines) {
 }
 
 function renderInline(text, resolveLink) {
-  // Wiki-links are resolved against the raw text: escaping first would rewrite
-  // "&" to "&amp;" and "'" to "&#39;" inside the target, so normalize()/slugify()
-  // would derive the wrong key and the lookup would miss (and the label would end
-  // up escaped twice). Each link is swapped for a placeholder, which passes
+  // Links are resolved against the raw text: escaping first would rewrite "&" to
+  // "&amp;" and "'" to "&#39;" inside the target, so normalize()/slugify() would
+  // derive the wrong key and the lookup would miss, and the label and href would
+  // end up escaped twice. Each link is swapped for a placeholder, which passes
   // through escapeHtml unchanged, and its HTML is spliced back in at the end.
   const PLACEHOLDER = /WIKILINKREF(\d+)ENDREF/g;
-  const wikiLinks = [];
+  const links = [];
+  const stash = (html) => `WIKILINKREF${links.push(html) - 1}ENDREF`;
 
   let out = text.replace(PLACEHOLDER, '').replace(/\[\[([^\]]+)\]\]/g, (_, target) => {
     const trimmed = target.trim();
     const slug = resolveLink(trimmed);
     const label = escapeHtml(trimmed.replace(/\.md$/i, ''));
-    const index = wikiLinks.push(
+    return stash(
       slug
         ? `<a href="#note=${encodeURIComponent(slug)}">${label}</a>`
         : `<span class="missing-link">${label}</span>`,
-    ) - 1;
-    return `WIKILINKREF${index}ENDREF`;
+    );
   });
+
+  out = out.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_, label, href) =>
+    stash(
+      `<a href="${escapeHtml(href)}" target="_blank" rel="noreferrer noopener">${escapeHtml(label)}</a>`,
+    ),
+  );
 
   out = escapeHtml(out);
-
-  out = out.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_, label, href) => {
-    return `<a href="${escapeHtml(href)}" target="_blank" rel="noreferrer noopener">${escapeHtml(label)}</a>`;
-  });
 
   out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   out = out.replace(/`([^`]+)`/g, '<code>$1</code>');
 
-  return out.replace(PLACEHOLDER, (_, index) => wikiLinks[Number(index)]);
+  // A stashed link can itself contain a placeholder (a wiki-link inside a
+  // markdown label), and replace() does not rescan what it splices in, so repeat
+  // until stable. Nested links always reference a lower index, so this
+  // terminates.
+  let previous;
+  do {
+    previous = out;
+    out = out.replace(PLACEHOLDER, (_, index) => links[Number(index)]);
+  } while (out !== previous);
+
+  return out;
 }
 
 function renderMarkdown(text, resolveLink) {
