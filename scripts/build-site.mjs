@@ -69,16 +69,27 @@ function parseFrontmatter(lines) {
 }
 
 function renderInline(text, resolveLink) {
-  let out = escapeHtml(text);
+  // Wiki-links are resolved against the raw text: escaping first would rewrite
+  // "&" to "&amp;" and "'" to "&#39;" inside the target, so normalize()/slugify()
+  // would derive the wrong key and the lookup would miss (and the label would end
+  // up escaped twice). Each link is swapped for a placeholder, which passes
+  // through escapeHtml unchanged, and its HTML is spliced back in at the end.
+  const PLACEHOLDER = /WIKILINKREF(\d+)ENDREF/g;
+  const wikiLinks = [];
 
-  out = out.replace(/\[\[([^\]]+)\]\]/g, (_, target) => {
-    const slug = resolveLink(target.trim());
-    const label = escapeHtml(target.trim().replace(/\.md$/i, ''));
-    if (!slug) {
-      return `<span class="missing-link">${label}</span>`;
-    }
-    return `<a href="#note=${encodeURIComponent(slug)}">${label}</a>`;
+  let out = text.replace(PLACEHOLDER, '').replace(/\[\[([^\]]+)\]\]/g, (_, target) => {
+    const trimmed = target.trim();
+    const slug = resolveLink(trimmed);
+    const label = escapeHtml(trimmed.replace(/\.md$/i, ''));
+    const index = wikiLinks.push(
+      slug
+        ? `<a href="#note=${encodeURIComponent(slug)}">${label}</a>`
+        : `<span class="missing-link">${label}</span>`,
+    ) - 1;
+    return `WIKILINKREF${index}ENDREF`;
   });
+
+  out = escapeHtml(out);
 
   out = out.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_, label, href) => {
     return `<a href="${escapeHtml(href)}" target="_blank" rel="noreferrer noopener">${escapeHtml(label)}</a>`;
@@ -87,7 +98,7 @@ function renderInline(text, resolveLink) {
   out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
   out = out.replace(/`([^`]+)`/g, '<code>$1</code>');
 
-  return out;
+  return out.replace(PLACEHOLDER, (_, index) => wikiLinks[Number(index)]);
 }
 
 function renderMarkdown(text, resolveLink) {
