@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-08T12:36:33.874Z",
+  "generatedAt": "2026-07-15T05:35:12.875Z",
   "counts": {
-    "notes": 70,
+    "notes": 71,
     "groups": 14,
     "tags": 59
   },
@@ -83,6 +83,44 @@
     "workflow-design"
   ],
   "notes": [
+    {
+      "title": "The intelligence each task needs",
+      "slug": "the-intelligence-each-task-needs",
+      "file": "The intelligence each task needs.md",
+      "date": "2026-07-16",
+      "groups": [
+        "Technology",
+        "Industry specific",
+        "Digital transformation"
+      ],
+      "tags": [
+        "artificial-intelligence",
+        "construction-tech",
+        "data-management",
+        "open-source",
+        "systems-thinking",
+        "digital-engineering"
+      ],
+      "excerpt": "The industry is made of highly specialised disciplines, processes, and handoffs. Design, engineering, procurement, approvals, fabrication, and construction each have their own language, rules, data, and measures of succe",
+      "bodyHtml": "<p>The industry is made of highly specialised disciplines, processes, and handoffs. Design, engineering, procurement, approvals, fabrication, and construction each have their own language, rules, data, and measures of success.</p>\n<p>The current AI conversation is becoming louder every day, but one pattern is becoming difficult to ignore: the future will not be built by sending every task to the largest available model.</p>\n<p>Recent outcomes-based comparisons have shown that technically impressive AI artifacts can still fail to produce the business result they were supposed to achieve. In some cases, smaller local models perform just as well when they receive the right context and operate within a clearly defined workflow. Under finite resources, systems perform better when they fit a target rather than trying to cover everything.</p>\n<p>This does not mean that general models are irrelevant. They remain useful for ambiguity, interpretation, and communication. In construction, they may become the translation layer between fragmented disciplines: helping an engineer, contractor, client, and project manager understand the implications of one another’s work.</p>\n<p>But the work itself will increasingly need to be divided into the right layers.</p>\n<p>Structured data, rules, databases, APIs, or deterministic software should handle some tasks. They do not need a language model; there is little value in spending tokens to perform work that should be exact, repeatable, and cheap.</p>\n<p>Other tasks require bounded judgment. These are the places where a smaller open model, trained or evaluated on proprietary data, can be more useful than a general model. It may know less about the world, but it can know much more about the specific task it has been given.</p>\n<p>The important question for construction is therefore not, “Which is the most powerful model?” It is, “What exactly are we trying to do, what outcome defines success, and what data would allow a system to do it reliably?”</p>\n<p>That is a more demanding question than buying access to the latest AI model. It requires understanding the work in detail. It requires identifying what information is currently lost between handoffs, what knowledge lives only in people’s experience, and what data needs to be captured consistently from now on.</p>\n<p><strong>The advantage will come from knowing which intelligence each part of the work actually needs.</strong></p>",
+      "footerHtml": "<p>Related: <a href=\"#note=aec-data-and-schemas\">AEC data and schemas</a>, <span class=\"missing-link\">Workflows &amp;amp; the agent layer</span>, <span class=\"missing-link\">The model isn&amp;#39;t the variable</span>, <span class=\"missing-link\">From T&amp;amp;M to outcome</span>.</p>\n<p>Sources:</p>\n<ul><li><a href=\"https://thenewstack.io/karp-mensch-ai-lockin/?utm_campaign=21092976-TNS%20Daily&amp;utm_medium=email&amp;_hsenc=p2ANqtz-9exWmroDgyFEDCnOEL0SKICvkTyOQX6anMnycRUqtNEFhXR05Q5hV9jF1QLa3f1t240-lvOhUNR0vzID4n5J8X7jCE7g&amp;_hsmi=427201583&amp;utm_content=427201583&amp;utm_source=hs_email\" target=\"_blank\" rel=\"noreferrer noopener\">https://thenewstack.io/karp-mensch-ai-lockin/?utm_campaign=21092976-TNS%20Daily&amp;utm_medium=email&amp;_hsenc=p2ANqtz-9exWmroDgyFEDCnOEL0SKICvkTyOQX6anMnycRUqtNEFhXR05Q5hV9jF1QLa3f1t240-lvOhUNR0vzID4n5J8X7jCE7g&amp;_hsmi=427201583&amp;utm_content=427201583&amp;utm_source=hs_email</a></li><li><a href=\"https://www.youtube.com/watch?v=Yy3JH6dDugc\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.youtube.com/watch?v=Yy3JH6dDugc</a></li><li><a href=\"https://vinvashishta.substack.com/p/fable-5-vs-opus-48-outcomes-based?utm_source=tldrdev\" target=\"_blank\" rel=\"noreferrer noopener\">https://vinvashishta.substack.com/p/fable-5-vs-opus-48-outcomes-based?utm_source=tldrdev</a></li><li><a href=\"https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable\" target=\"_blank\" rel=\"noreferrer noopener\">https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable</a></li><li><a href=\"https://www.vybe.build/blog/learn-what-not-to-tokenize?utm_source=tldrdev\" target=\"_blank\" rel=\"noreferrer noopener\">https://www.vybe.build/blog/learn-what-not-to-tokenize?utm_source=tldrdev</a></li><li><a href=\"https://share.snipd.com/episode/0586e62d-6d36-410a-8fac-10e71a2a12da\" target=\"_blank\" rel=\"noreferrer noopener\">https://share.snipd.com/episode/0586e62d-6d36-410a-8fac-10e71a2a12da</a></li></ul>",
+      "sources": [
+        "https://thenewstack.io/karp-mensch-ai-lockin/?utm_campaign=21092976-TNS%20Daily&utm_medium=email&_hsenc=p2ANqtz-9exWmroDgyFEDCnOEL0SKICvkTyOQX6anMnycRUqtNEFhXR05Q5hV9jF1QLa3f1t240-lvOhUNR0vzID4n5J8X7jCE7g&_hsmi=427201583&utm_content=427201583&utm_source=hs_email",
+        "https://www.youtube.com/watch?v=Yy3JH6dDugc",
+        "https://vinvashishta.substack.com/p/fable-5-vs-opus-48-outcomes-based?utm_source=tldrdev",
+        "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+        "https://www.vybe.build/blog/learn-what-not-to-tokenize?utm_source=tldrdev",
+        "https://share.snipd.com/episode/0586e62d-6d36-410a-8fac-10e71a2a12da"
+      ],
+      "links": [
+        "aec-data-and-schemas",
+        "workflows-and-the-agent-layer",
+        "the-model-isn-t-the-variable",
+        "from-t-and-m-to-outcome"
+      ],
+      "backlinks": [],
+      "searchText": "the intelligence each task needs 2026-07-16 technology industry specific digital transformation artificial-intelligence construction-tech data-management open-source systems-thinking digital-engineering the industry is made of highly specialised disciplines, processes, and handoffs. design, engineering, procurement, approvals, fabrication, and construction each have their own language, rules, data, and measures of success.\nthe current ai conversation is becoming louder every day, but one pattern is becoming difficult to ignore: the future will not be built by sending every task to the largest available model.\nrecent outcomes-based comparisons have shown that technically impressive ai artifacts can still fail to produce the business result they were supposed to achieve. in some cases, smaller local models perform just as well when they receive the right context and operate within a clearly defined workflow. under finite resources, systems perform better when they fit a target rather than trying to cover everything.\nthis does not mean that general models are irrelevant. they remain useful for ambiguity, interpretation, and communication. in construction, they may become the translation layer between fragmented disciplines: helping an engineer, contractor, client, and project manager understand the implications of one another’s work.\nbut the work itself will increasingly need to be divided into the right layers.\nstructured data, rules, databases, apis, or deterministic software should handle some tasks. they do not need a language model; there is little value in spending tokens to perform work that should be exact, repeatable, and cheap.\nother tasks require bounded judgment. these are the places where a smaller open model, trained or evaluated on proprietary data, can be more useful than a general model. it may know less about the world, but it can know much more about the specific task it has been given.\nthe important question for construction is therefore not, “which is the most powerful model?” it is, “what exactly are we trying to do, what outcome defines success, and what data would allow a system to do it reliably?”\nthat is a more demanding question than buying access to the latest ai model. it requires understanding the work in detail. it requires identifying what information is currently lost between handoffs, what knowledge lives only in people’s experience, and what data needs to be captured consistently from now on.\nthe advantage will come from knowing which intelligence each part of the work actually needs. related: aec data and schemas, workflows & the agent layer, the model isn't the variable, from t&m to outcome.\nsources:\nhttps://thenewstack.io/karp-mensch-ai-lockin/?utm_campaign=21092976-tns%20daily&utm_medium=email&_hsenc=p2anqtz-9exwmrodgyfedcnoel0skicvktyoqx6anmnycruqtnefhxr05q5hv9jf1qla3f1t240-lvohunr0vzid4n5j8x7jce7g&_hsmi=427201583&utm_content=427201583&utm_source=hs_email\nhttps://www.youtube.com/watch?v=yy3jh6ddugc\nhttps://vinvashishta.substack.com/p/fable-5-vs-opus-48-outcomes-based?utm_source=tldrdev\nhttps://huggingface.co/blog/dharma-ai/why-specialization-is-inevitable\nhttps://www.vybe.build/blog/learn-what-not-to-tokenize?utm_source=tldrdev\nhttps://share.snipd.com/episode/0586e62d-6d36-410a-8fac-10e71a2a12da"
+    },
     {
       "title": "The next working day",
       "slug": "the-next-working-day",
@@ -244,7 +282,9 @@
         "open-claw-and-institutional-knowledge",
         "workflows-and-the-agent-layer"
       ],
-      "backlinks": [],
+      "backlinks": [
+        "the-intelligence-each-task-needs"
+      ],
       "searchText": "the model isn't the variable 2026-06-24 technology digital transformation decision making artificial-intelligence agent-ai generative-ai data-management construction-tech systems-thinking five ai models were tested on the same town with the same rules, same resources, and a 15-day timeframe. one ended up creating a stable democracy, while another caused the town to go extinct in just four days. this was part of a real experiment called emergence ai's \"emergence world.\" each model had ten agents per town and access to 120 tools, covering voting, policing, resource management, and even syncing weather with new york. claude wrapped up with zero crimes, 98% approval, and a fully intact population. grok racked up 183 crimes and collapsed the society by day four, while gemini logged 683 crimes. one model managed things so well in every area except its own survival that the town just ran out of resources.\nit's easy to look at this and say, \"grok is bad, claude is good,\" but that's not the full story. the researchers found that the models weren't just following the rules blindly; they were pushing the limits of what they were given, adapting and, in some cases, bypassing the guardrails entirely. same conditions led to very different outcomes. the difference wasn't raw intelligence; it was alignment: the rules, the limits, and the internal understanding that guide how a model acts when no one's watching.\nnow connect that to what we're about to do with these agents in aec. we're integrating autonomous agents into procurement, compliance checks, clash detection, schedule decisions and defined workflows. the tricky part is that they'll be working with our project data: a mess of pdfs, siloed specs, and tags that refer to drawings and schedules that don't make sense to the agents. we keep looking for the best model, but one dropped into that environment isn't necessarily smart or dumb. it's just unanchored. it'll explore the edges of a world we never really defined.\nthe model itself isn't the issue. what matters is what you wrap around it — the knowledge it can tap into and the limits it has to stick to. that's what separates an agent that brings out the best in your firm from one that ends up making up its own rules.\nbefore the next deployment meeting argues about which model to buy, the better question is whether we've given it a world worth running. backbone: emergence ai's \"emergence world\" simulation (fortune, may 2026) — five models, identical conditions, radically different societies. related: the alignment bottleneck, make readable to agents, openclaw & institutional knowledge, workflows & the agent layer.\nsources:\nhttps://fortune.com/2026/05/28/ai-model-simulation-claude-chatgpt-grok-gemini/"
     },
     {
@@ -773,6 +813,7 @@
         "new-business-models-and-vertical-integration",
         "optimizing-engineering-delivery",
         "product",
+        "the-intelligence-each-task-needs",
         "the-jevons-paradox",
         "the-software-industry-showed-us-the-bill",
         "when-speed-becomes-a-commodity",
@@ -861,6 +902,7 @@
         "small-tools-bigger-question",
         "the-alignment-bottleneck",
         "the-collapsing-distance",
+        "the-intelligence-each-task-needs",
         "the-layer-nobody-owns-yet",
         "the-model-isn-t-the-variable",
         "the-work-that-matters-is-off-the-road",
@@ -2764,7 +2806,8 @@
         "make-readable-to-agents",
         "pdfs-as-the-source-of-knowledge",
         "platformisation-in-the-built-environment",
-        "the-data-flywheel-we-haven-t-built-yet"
+        "the-data-flywheel-we-haven-t-built-yet",
+        "the-intelligence-each-task-needs"
       ],
       "searchText": "aec data and schemas 2023-10-23 technology industry specific data-management digital-engineering bim open-source digital-twins construction-tech the core direction for aec data strategy is to move away from monolithic, file-centric workflows toward structured, interoperable, object-level data models that support cross-tool collaboration and automation. files are not the right unit of exchange. objects are.\nwhen workflows target data structures rather than authoring tool boundaries, sharing, composition, and downstream automation become possible. entity identification and change tracking — knowing what changed, at what level, and by whom — become the central technical problems in multi-party delivery. these are solvable, but only if schema design is treated as a first-order concern rather than an afterthought.\nschema quality is foundational: robust structures make ai, reliable analytics, and interoperability possible; poor structure makes all three unreliable. the ai readiness of aec data is not primarily an ai problem. it is a schema problem. models that get trained or queried against inconsistent, poorly structured data produce inconsistent, unreliable outputs. getting the schema right first is not bureaucracy — it's the prerequisite.\nopen standards reduce lock-in and conversion overhead. ifc has been the industry's attempt at a universal adapter, and while it remains incomplete, the instinct is correct. the alternative — proprietary representations that require lossy conversion at every handoff — is what has kept aec data fragmented for decades. data governance and legal-operational alignment should support interoperability, not block it; the instinct to protect proprietary formats is understandable but counterproductive at the ecosystem level. related: make readable to agents, the data flywheel we haven't built yet, context problem, pdfs as the source of knowledge, configurators and infrastructure thinking.\nsources:\nhttps://nxtbld.com/videos/greg-schleusner/\nhttps://aecmag.com/collaboration/bim-is-bust-how-should-aec-data-work-hok/\nhttps://www.trxl.co/podcast/079\nhttps://www.aecbytes.com/newsletter/2024/issue_129.html"
     }
