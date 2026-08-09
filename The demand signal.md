@@ -10,7 +10,7 @@ tags:
 - business-model
 - technology-adoption
 - digital-transformation
-date: 2026-08-09
+date: 2026-07-31
 ---
 I notice a similar level of crowding in ConTech: tools for takeoffs, bids, permitting, document comparison, scope review, and compliance.
 
