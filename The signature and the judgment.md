@@ -23,13 +23,15 @@ Codes verify; they don't conceive. No standard tells you whether the braced core
 
 So what is the signature made of, once the judgment behind it is automated? The loop can confirm the calculation; it cannot sign it. And an engineer who approves output they never formed an independent view on isn't exercising judgment. Addy Osmani calls this cognitive surrender: you didn't review it, you ratified it. **When the checkable half of judgment is delegated, what remains human is not taste; it is liability.**
 
-I used to think this was temporary, a gap that closes once we regulate AI into legal enforceability. The evidence points the other way. The EU AI Act places critical infrastructure in its high-risk tier, and its answer is mandated human oversight, traceability, and provenance. Regulators aren't preparing to let the algorithm sign; they're writing the human into law. Regulation turns out to be the signature's last defender.
+I used to think this was temporary, a gap that closes once regulation catches up and writes the human into law. I don't think that anymore. The statutes that exist reach the operation of infrastructure, not the design of it, and nobody is drafting the one that would defend the signature.
+
+What defends it is the shape of the industry. AEC fragmented into disciplines and handoffs because every boundary is a legal firewall, each party responsible for their piece and only their piece. A drawing set isn't instructions; it's a record of what someone is willing to stand behind. Clients here have never really bought tools, they buy an accountable outcome delivered by a name, because that moves the risk off their desk. Which is what AI is competing with, and why speed alone doesn't touch it: a model that produces the same answer faster has changed nothing about who carries it.
 
 The pressure that matters comes from the market. John Deere absorbed the farmer's local judgment, then bundled insurance with it, because it could predict the risk better than the farmer could. Liability migrates to whoever can price it. If the engineer's signature goes, it will be priced away, by a vendor whose loops are deterministic enough to underwrite.
 
 That's also where the generational worry becomes economic rather than pedagogical. Law firms overcharge for associates and undercharge for partners; the pyramid of checkable work funds the 30 minutes of partner judgment that matter most. Engineering runs on the same structure. When AI absorbs the checkable layer it removes the junior's training ground, and with it the revenue model that paid for judgment to form at all.
 
-So the profession holds a strange position: asking the next generation to carry a signature whose judgment they were never given the hours to build, protected by a regulation that mandates their presence, while the market works out who will underwrite the machine. I don't know who absorbs that risk first. When someone does, we'll find out how much of the profession was judgment, and how much was only the signature.
+So the profession holds a strange position: asking the next generation to carry a signature whose judgment they were never given the hours to build, protected by nothing more durable than the fact that nobody else has yet offered to carry the risk, while the market works out who will underwrite the machine. I don't know who absorbs that risk first. When someone does, we'll find out how much of the profession was judgment, and how much was only the signature.
 
 ---
 
@@ -39,6 +41,6 @@ Sources:
 - https://uxdesign.cc/taste-cannot-be-delegated-1706847a0b4b
 - https://uxdesign.cc/the-organizational-cost-of-low-taste-135cb8b10c34
 - https://addyosmani.com/blog/cognitive-surrender/
-- https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+- https://substack.com/home/post/p-204108875
 - https://share.snipd.com/episode/78f0cb42-4440-44b5-acaa-fd712b835da2
 - https://share.snipd.com/episode/f0369c0b-d103-4d1a-8135-37f4efd1406d
